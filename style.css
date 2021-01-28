@@ -1,0 +1,12 @@
+*,*::before,*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    display: inline-block;
+    background: linear-gradient(rgba(12, 18, 21, 1), rgba(170, 215, 215, 1));
+    color: white;
+    }
