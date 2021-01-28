@@ -9,4 +9,47 @@ body {
     display: inline-block;
     background: linear-gradient(rgba(12, 18, 21, 1), rgba(170, 215, 215, 1));
     color: white;
-    }
+}
+
+nav {
+    min-height: 10vh;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 3rem 4rem; */
+}
+.logo {
+    display: inline-flex;
+    font-size: 2rem;
+}
+
+.menu {
+    font-size: 2rem;
+}
+
+.page {
+    min-height: 70vh;
+    display: grid;
+    grid-template-columns: 5% 1fr 1fr 1fr 5%;
+  }
+
+.hero {
+    height: 500px;
+    align-self: center;
+    justify-self: center;
+    height: 500px;
+}
+
+.details {
+    grid-column: 2/3;
+    align-self: end;
+}
+
+.details h1{
+    font-size: 5vh;
+}
+.details h2 {
+    padding: 3vh 0 5vh 0;
+}
