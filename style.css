@@ -18,15 +18,10 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* padding: 3rem 4rem; */
+    font-size: 2rem
 }
 .logo {
     display: inline-flex;
-    font-size: 2rem;
-}
-
-.menu {
-    font-size: 2rem;
 }
 
 .page {
@@ -48,8 +43,9 @@ nav {
 }
 
 .details h1{
-    font-size: 5vh;
+    font-size: 6rem;
 }
 .details h2 {
-    padding: 3vh 0 5vh 0;
+    font-size: 2rem;
+    padding: 3vh 0 3vh 0;
 }
