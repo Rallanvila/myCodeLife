@@ -12,7 +12,7 @@ body {
 
 nav {
     min-height: 10vh;
-    width: 80%;
+    width: 90%;
     margin: auto;
     display: flex;
     justify-content: space-between;
@@ -26,7 +26,7 @@ nav {
 .page {
     min-height: 90vh;
     display: grid;
-    grid-template-columns: 10% 1fr 1fr 1fr 10%;
+    grid-template-columns: 5% 1fr 1fr 1fr 5%;
   }
 
   .hero {
@@ -34,22 +34,29 @@ nav {
     justify-self: center;
   }
 .hero img{
-    height: 600px;
+    height: 700px;
     width: auto;
 }
 
 .details {
     grid-column: 2/3;
     align-self: end;
-    padding-bottom: 16vh;
+    padding: 0 5vh 16vh 0;
 }
 
 .details h1{
     font-size: 4rem;
     padding: 0 2 0 0;
-    font-weight: bold;
+    font-weight: 2000;
 }
+
 .details h2 {
     font-size: 2rem;
     padding: 3vh 3vh 3vh 0;
+}
+
+.lang-logo {
+    padding: 0 0 4vh 10vh;
+    height: 300px;
+
 }
