@@ -2,50 +2,54 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 body {
-    display: inline-block;
     background: linear-gradient(rgba(12, 18, 21, 1), rgba(170, 215, 215, 1));
     color: white;
 }
 
 nav {
     min-height: 10vh;
-    width: 90%;
+    width: 80%;
     margin: auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-size: 2rem
+    font-size: 1.5rem
 }
 .logo {
     display: inline-flex;
 }
 
 .page {
-    min-height: 70vh;
+    min-height: 90vh;
     display: grid;
-    grid-template-columns: 5% 1fr 1fr 1fr 5%;
+    grid-template-columns: 10% 1fr 1fr 1fr 10%;
   }
 
-.hero {
-    height: 500px;
+  .hero {
     align-self: center;
     justify-self: center;
-    height: 500px;
+  }
+.hero img{
+    height: 600px;
+    width: auto;
 }
 
 .details {
     grid-column: 2/3;
     align-self: end;
+    padding-bottom: 16vh;
 }
 
 .details h1{
-    font-size: 6rem;
+    font-size: 4rem;
+    padding: 0 2 0 0;
+    font-weight: bold;
 }
 .details h2 {
     font-size: 2rem;
-    padding: 3vh 0 3vh 0;
+    padding: 3vh 3vh 3vh 0;
 }
