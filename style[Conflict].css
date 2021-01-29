@@ -41,12 +41,13 @@ nav {
 .details {
     grid-column: 2/3;
     align-self: end;
-    padding: 0 5vh 20vh 0;
+    padding: 0 5vh 16vh 0;
 }
 
 .details h1{
     font-size: 4rem;
     padding: 0 2 0 0;
+    font-weight: 2000;
 }
 
 .details h2 {
@@ -55,10 +56,9 @@ nav {
 }
 
 .lang-logo {
-    padding: 0 0 0 10vh;
-    align-self: center;
-    justify-content: center;
+    padding: 0 0 4vh 10vh;
     height: 300px;
+    transform: translatey(-50%);
 }
 
 .pages {
@@ -75,24 +75,5 @@ nav {
 }
 .pages h3 {
     padding: 30px;
-    font-size: 1rem;
-}
-
-.pages svg{
-    cursor: pointer;
-    opacity: 0.5;
-    transform: scale(2);
-}
-.pages svg:hover{
-    animation: dot 0.5s ease-in-out infinite alternate;
-}
-.pages svg.active{
-    opacity: 1;
-}
-
-@keyframes dot{
-    0%{
-        transform: scale(2);
-    }
-    100%{ transform: scale(3);
+    font-size: 15px;
 }
