@@ -90,6 +90,45 @@ nav {
     opacity: 1;
 }
 
+.banner {
+    height: 720px;
+    position: relative;
+    width: 100%;
+
+}
+
+.banner-header { 
+    position: absolute;
+    top: 90%;
+    left: 75%;
+    transform: translate(-50%, -70%);
+    font-size: 72px;
+    color: white;
+}
+
+.description-1{
+    padding: 10vh 0 0 5vh;
+    position: relative;
+}
+
+.description-1 h2 {
+    padding-bottom: 2vh;
+}
+.description-1 p {
+    width: 50%;
+}
+
+.description-1 img {
+    float: right
+    
+}
+
+.description-2 {
+    padding: 5vh 5vh 5vh;
+    width: 50%;
+}
+
+
 @keyframes dot{
     0%{
         transform: scale(2);

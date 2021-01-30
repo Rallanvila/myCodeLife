@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    display: flexbox;
+    font-family: 'Poppins', sans-serif;
+}
+.body {
+        font-size: 1rem;
+        background: linear-gradient(rgba(12, 18, 21, 1), rgba(170, 215, 215, 1));
+}
+.banner {
+    height: 70vh;
+    position: relative;
+    width: 100%;
+}
+
+.main-img {
+    float: right;
+}
+
+.banner-header { 
+    position: absolute;
+    top: 90%;
+    left: 75%;
+    transform: translate(-50%, -70%);
+    font-size: 72px;
+    color: white;
+}
+
+.banner img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: top;
+}
+
