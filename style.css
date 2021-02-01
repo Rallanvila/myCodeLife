@@ -26,8 +26,15 @@ nav {
     min-height: 90vh;
     display: grid;
     grid-template-columns: 5% 1fr 1fr 1fr 5%;
-  }
-
+  } 
+.HTMLandCSS, .JavaScript, .React {
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+    width: 100%;
+    opacity: 0;
+    pointer-events: none;
+}
 .hero {
     align-self: center;
     justify-self: center;
@@ -40,7 +47,7 @@ nav {
 .details {
     grid-column: 2/3;
     align-self: end;
-    padding: 0 5vh 20vh 0;
+    padding: 0 5vh 35vh 0;
 }
 
 .details h1{
@@ -161,6 +168,46 @@ nav {
     background: linear-gradient(rgba(12, 18, 21, 100), rgba(170, 215, 215, 100));
     color: white
 }
+.nav-open {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 20vh;
+    background: white;
+    z-index: 1;
+    display: grid;
+    grid-template-columns: 5% 1fr 1fr 5%;
+    justify-items: center;
+    align-items: center;
+    color: black;
+    transform: translateY(-100%);
+}
+.contact {
+    grid-column: 2/3;
+    align-items: center;
+}
+
+.contact h3{
+    padding-bottom: 3vh
+}
+
+.social img {
+    padding-top: 2vh;
+    height: 90px;
+    text-align: center;
+}
+
+.logo, .menu {
+    z-index: 2; 
+}
+
+.menu {
+    cursor: pointer;
+}
+.social h3 {
+    padding-top: 2.8vh
+}
 
 @media (max-width: 1024px){
     .page {
@@ -211,6 +258,26 @@ nav {
         text-align: center;
         justify-content: center;
         left: 50%
+    }
+}
+
+@media (max-width: 768px) {
+    .pages {
+        grid-template-rows: 1fr 1fr;
+    }
+    .gallary {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+    .details h1{
+        font-size: 32px;
+        /* padding: 0 0 0 3vh; */
+    } 
+
+    .details h2 {
+        font-size: 24px;
+    }
+    .hero{
+        height: 300px
     }
 }
 
