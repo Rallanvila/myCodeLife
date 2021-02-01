@@ -28,7 +28,7 @@ nav {
     grid-template-columns: 5% 1fr 1fr 1fr 5%;
   }
 
-  .hero {
+.hero {
     align-self: center;
     justify-self: center;
   }
@@ -136,13 +136,17 @@ nav {
 
 .description-2-content {
    justify-content: space-between
-   ;
+   padding-right: 5vh
 }
 
 .gallary {
   padding-left: 5vh;
-  justify-content: space-around;
-  align-self: right;
+  display: grid;
+  grid-template-columns: repeat(3, 250px);
+}
+
+.gallary img {
+    width: 100% 
 }
 
 .JSpage {
@@ -156,6 +160,36 @@ nav {
 .mainpg {
     background: linear-gradient(rgba(12, 18, 21, 100), rgba(170, 215, 215, 100));
     color: white
+}
+
+@media (max-width: 1024px){
+    .page {
+        grid-template-columns: 5% 1fr 5%;
+        grid-template-rows: 2fr 1fr;
+        align-items: center;
+    }
+    .hero {
+        grid-column: 1/3;
+        height: auto;
+    }
+    .details {
+        grid-row: 2/3;
+        grid-column: 2/3;
+        text-align: center;
+    }
+   .details h1 {
+        font-size: 48px;
+    }
+    .details h2{
+        font-size: 32px
+    }
+    .lang-logo {
+        align-self: center;
+        justify-content: center;
+        height: 300px;
+        display: none;
+
+    }
 }
 
 @keyframes dot{
