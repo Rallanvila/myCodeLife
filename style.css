@@ -103,7 +103,7 @@ nav {
     transform: translate(-50%, -70%);
     font-size: 72px;
     color: white;
-    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
 }
 
 .description-1, .description-2 {
@@ -188,7 +188,29 @@ nav {
         justify-content: center;
         height: 300px;
         display: none;
-
+    }
+    .description-1, .description-2 {
+        flex-direction: column;
+    }
+    .description-1-content, .description-2-content {
+        width: 100%
+    }
+    .main-img {
+        padding: 10vh 0 0 0;
+        text-align: center;
+    }
+    .gallary {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        padding: 10vh 0 0 0;
+    }
+    .description-2{
+        padding: 0 0 10vh 0;
+    }
+    .banner-header {
+        text-align: center;
+        justify-content: center;
+        left: 50%
     }
 }
 
