@@ -149,6 +149,10 @@ body {
 .JSpage {
     background: radial-gradient(rgba(0, 106, 146, 100), rgba(228, 229, 234, 100))
 }
+
+.Reactpage {
+    background: radial-gradient(rgba(70, 70, 70, 100), rgba(255, 255, 255, 100))
+}
 /* .page-description h2 {
     padding-bottom: 2vh;
     font-size: 48px;
