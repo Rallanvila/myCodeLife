@@ -6,11 +6,11 @@
 }
 
 body {
-    background: linear-gradient(rgba(12, 18, 21, 1), rgba(170, 215, 215, 1));
-    color: white;
+    background: radial-gradient(rgba(141, 102, 89, 100), rgba(223, 227, 229, 100));
+    color:black;
 }
 
-nav {
+.nav {
     min-height: 10vh;
     width: 90%;
     margin: auto;
@@ -110,13 +110,16 @@ nav {
 .description-1, .description-2 {
     display: flex;
     justify-content: space-between;
-    width: 80%;
+    width: 90%;
     margin: auto;
     padding: 10vh 0;
 }
 
-.description-1-content, .description-2-content {
+.description-1-content{
     width: 50%;
+}
+.description-2-content{
+    width: 90%;
 }
 
 .description-1-content {
@@ -138,9 +141,13 @@ nav {
 }
 
 .gallary {
-  padding: 40vh 0 0 20vh;
-  justify-content: right;
+  padding-left: 5vh;
+  justify-content: space-around;
   align-self: right;
+}
+
+.JSpage {
+    background: radial-gradient(rgba(0, 106, 146, 100), rgba(228, 229, 234, 100))
 }
 /* .page-description h2 {
     padding-bottom: 2vh;
