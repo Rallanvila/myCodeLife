@@ -110,12 +110,38 @@ nav {
 .description-1, .description-2 {
     display: flex;
     justify-content: space-between;
-    width: 90%;
+    width: 80%;
     margin: auto;
     padding: 10vh 0;
 }
 
+.description-1-content, .description-2-content {
+    width: 50%;
+}
 
+.description-1-content {
+    padding: 2vh 0 0 0; 
+}
+
+.description-1-content h2, .description-2-content h2 {
+    padding-bottom: 3vh;
+    font-size: 48px;
+}
+
+.description-1-content p, .description-2-content p {
+    font-size: 24px;
+}
+
+.description-2-content {
+   justify-content: space-between
+   ;
+}
+
+.gallary {
+  padding: 40vh 0 0 20vh;
+  justify-content: right;
+  align-self: right;
+}
 /* .page-description h2 {
     padding-bottom: 2vh;
     font-size: 48px;
